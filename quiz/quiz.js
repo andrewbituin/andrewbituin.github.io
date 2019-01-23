@@ -90,9 +90,9 @@ function generateHtmlFeedbackString(state){
   return `<div class="feedback-page">
                 <div>
                     <p class="feedback-message">Your answer was <span class="question-result">${isCorrect ? 'correct!' : 'incorrect!'}</span></p>
-                    ${isCorrect ? 'Awesome, off to next question....' : `<p class="correct-answer">The correct answer is ${state.correctAnswer}.</p>`}
+                    ${isCorrect ? 'Good job!' : `<p class="correct-answer">The correct answer is ${state.correctAnswer}.</p>`}
                 </div>
-                <input type="button" value="Next Question" class="js-next-question-button">
+                <input type="button" value="Next" class="js-next-question-button">
             </div>`;
 }
 
