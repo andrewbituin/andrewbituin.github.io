@@ -44,7 +44,8 @@ const STORE = {
 // generate HTML elements ====page template====
 function generateStartHtmlString(){
   return `<section class="start-page">
-            <p>How much of a Liverpool FC supporter are you?</p>
+            <p class="start-page-title"> LIVERPOOL F.C. QUIZ </p>
+            <br>
             <button type="button" class="js-start-button" >Start Quiz</button>
           </section>`;
 }
@@ -89,8 +90,8 @@ function generateHtmlFeedbackString(state){
   const isCorrect = state.correctAnswer === state.userAnswer;
   return `<div class="feedback-page">
                 <div>
-                    <p class="feedback-message">Your answer was <span class="question-result">${isCorrect ? 'correct!' : 'incorrect!'}</span></p>
-                    ${isCorrect ? 'Good job!' : `<p class="correct-answer">The correct answer is ${state.correctAnswer}.</p>`}
+                    <p class="feedback-message"><span class="question-result">${isCorrect ? 'Correct!' : 'Incorrect!'}</span></p>
+                    ${isCorrect ? '': `<p class="incorrect-answer">The correct answer is ${state.correctAnswer}.</p>`}
                 </div>
                 <input type="button" value="Next" class="js-next-question-button">
             </div>`;
