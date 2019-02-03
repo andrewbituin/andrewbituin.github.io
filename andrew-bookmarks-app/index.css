@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box
+}
+
+body {
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+font-family: 'Libre Baskerville', serif;
+
+}
+
+header{
+    padding-top: 6em;
+}
+
+button {
+    background-color: royalblue;
+    border: 0.08em solid darkgray;
+    color: white;
+}
+h1{
+    display: inline-block;
+    font-size: 2em;
+    padding: 0.5em;
+    margin-bottom: 0;
+    padding-bottom: .25em;
+  
+}
+
+.js-add-bookmark  {
+    font-size: 1.125em;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.js-add-bookmark-button, .js-close-add-bookmark-button {
+    font-size: 0.55em;
+    font-family: 'Libre Baskerville', serif;
+}
+
+#cancel-error{
+    border: 0.05em solid lightgray;
+    font-size: 0.7em;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.js-remove-bookmark{
+   border: 0.5 solid lightgray;
+   font-size: 0.938em;
+   display: block;
+   font-family: 'Libre Baskerville', serif;
+   margin-top: 1.7em;
+   float: right;
+}
+
+.js-extended{
+    border: 0.5 solid lightgray;
+    font-size: 0.938em;
+    display: block;
+    font-family: 'Libre Baskerville', serif;
+    margin-top: .8em;
+    margin-bottom: .8em;
+    float: none;
+ }
+
+.js-minimum-rating{
+    margin-top: 0.625em;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.125em;
+    background-color: royalblue;
+    color: white;
+}
+
+.rating-title{
+    margin-top: 2em;
+}
+
+.item-title{
+    text-align: center;
+    display: inline-block;
+}
+
+.item-rating{
+    display: inline-block;
+    padding: 0.5em;
+    
+}
+
+.js-bookmark-view{
+    margin: 0;
+    padding: 0em 0.938em;
+    font-size: 1.125em;
+    margin: 0.625em 0px 0.625em;
+}
+
+li {
+    list-style: none;
+    text-align: left;
+    border: 0.125em solid lightgray;
+    padding: 0.313em 0.500em 0.313em 0.500em;
+    margin-right: 0.625em;
+}
+
+p{
+    margin-top: 0em;
+}
+
+ul {
+    padding: 1em;
+}
+
+#item-title, #item-url, #item-rating, #item-description {
+    font-family: 'Libre Baskerville', serif;
+}
+
+form {
+    font-size: 2em;
+    display:inline-block;
+    border: 0.05em solid lightgray;
+    font-family: 'Libre Baskerville', serif;
+    padding: 0.313em 0.500em 0.313em 0.500em;
+    
+}
+
+.error-content {
+    border: 0.075em solid red;
+    font-size: 1em;
+    display:inline-block;
+    font-family: 'Libre Baskerville', serif;
+    padding: 0.313em 0.500em 0.313em 0.500em;
+    margin: 0.5em;
+}
+
+@media screen and (max-width: 570px){
+    body {
+        margin: 0px;
+        width: 100%;
+    }
+    h1 {
+        font-size: 2em;
+        display: block;
+        margin: 1em;
+    }
+}
