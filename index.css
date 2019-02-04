@@ -13,6 +13,7 @@ font-family: 'Libre Baskerville', serif;
 
 header{
     padding-top: 6em;
+    
 }
 
 button {
@@ -26,6 +27,10 @@ h1{
     padding: 0.5em;
     margin-bottom: 0;
     padding-bottom: .25em;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+    box-shadow: 5px 5px darkgrey;
+    margin-bottom: 10px;
   
 }
 
@@ -100,6 +105,8 @@ li {
     border: 0.125em solid lightgray;
     padding: 0.313em 0.500em 0.313em 0.500em;
     margin-right: 0.625em;
+    border-radius: 10px;
+    box-shadow: 7px 7px darkgrey;
 }
 
 p{
